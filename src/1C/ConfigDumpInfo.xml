@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
+	<ConfigVersions>
+		<Metadata name="Catalog.ДополнительныеОтчетыИОбработки" id="caff8029-3de4-49c9-a110-177d5694a4db" configVersion="f3058a73a7326b4e8ca26fb449404db44c951aed">
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Команды" id="479b7ed9-5b5a-46da-926f-0108aab9b907"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Команды.Attribute.Метод" id="9d149f11-adb9-4440-b0a0-6e06e3812ac6"/>
+			<Metadata name="Catalog.ДополнительныеОтчетыИОбработки.TabularSection.Команды.Attribute.Префикс" id="c12072b4-fe6e-4344-8b15-5b16c7b929f4"/>
+		</Metadata>
+		<Metadata name="CommonModule.ДанныеСервиса" id="924bad91-e623-4465-a71f-6cdff912de17" configVersion="1631a71bbd19a55090f3303a1c58f9ed6820e41e"/>
+		<Metadata name="CommonModule.ДанныеСервиса.Module" id="924bad91-e623-4465-a71f-6cdff912de17.0" configVersion="2e8f3785d1e8497cdbc0ba8d6278400662a73fba"/>
+		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки" id="3d4d0c38-4861-48ff-bb9b-365b5bb724ab" configVersion="3e838d2e5f8e1df9ce69dc88737f162f173db158"/>
+		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработки.Module" id="3d4d0c38-4861-48ff-bb9b-365b5bb724ab.0" configVersion="8a4ece517de0871233cae3014fa155d89f9a775d"/>
+		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер" id="fbfef822-0f34-4c19-b370-900f33901f4c" configVersion="a34bd6b1fceccb05396f13845c1e1ef409e985d9"/>
+		<Metadata name="CommonModule.ДополнительныеОтчетыИОбработкиКлиентСервер.Module" id="fbfef822-0f34-4c19-b370-900f33901f4c.0" configVersion="6002e62d5b930204ec8ddcf7fa6da3b747f42f7b"/>
+		<Metadata name="Configuration.UniAPI" id="31531ef0-b63d-4e93-9296-aa9ffbc8ecb1" configVersion="48643b175a72d424921b658af80f95c1b54313b5"/>
+		<Metadata name="Constant.Домен" id="370dc79d-a35e-48de-b362-605ea8d1b64d" configVersion="90d664941f09ef878eff0f16ade35febe2766e03"/>
+		<Metadata name="DataProcessor.ДанныеСервисов" id="d49b8ce0-5688-4103-bd4c-d71c8da66adb" configVersion="690c3283b35ecbe78b25fa82fbc869d347232cd5"/>
+		<Metadata name="DataProcessor.ДанныеСервисов.ManagerModule" id="d49b8ce0-5688-4103-bd4c-d71c8da66adb.2" configVersion="608afba0c368e25da5781fcfeadbc6cbeb829f97"/>
+		<Metadata name="DataProcessor.ДанныеСервисов.ObjectModule" id="d49b8ce0-5688-4103-bd4c-d71c8da66adb.0" configVersion="239adfd22b11e2faa91e38f309f518b468ef83ab"/>
+		<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок" id="0f82865b-9f5c-4342-b816-bee3af9ecdd3" configVersion="d50006743943af5490df7e44e2cb8d48769f4683">
+			<Metadata name="Enum.ВидыДополнительныхОтчетовИОбработок.EnumValue.HTTPСервис" id="c5f28885-da3a-4bef-84ff-e68eedd12223"/>
+		</Metadata>
+		<Metadata name="Enum.СпособыВызоваДополнительныхОбработок" id="3b957336-0688-4a28-8cf8-eed0c7e1ec1d" configVersion="3f9a55135c4d7742a0c971f701a7e439846cb42d">
+			<Metadata name="Enum.СпособыВызоваДополнительныхОбработок.EnumValue.ВызовHTTPСервиса" id="a68e8c99-a356-4aeb-bd96-133bb64270da"/>
+		</Metadata>
+		<Metadata name="HTTPService.uAPI" id="fc04c515-ab95-4067-8f8b-9c4c63ca38c7" configVersion="4d3fd96eec6c0e17ce3f618b7059b2a503144473">
+			<Metadata name="HTTPService.uAPI.URLTemplate.ШаблонПрокси.Method.Прокси" id="8d6539cf-9c9e-49ca-b47a-6e2b3eabca2a"/>
+			<Metadata name="HTTPService.uAPI.URLTemplate.ШаблонПрокси" id="c5750180-0e30-4cf6-abf2-306e6f365dbe"/>
+		</Metadata>
+		<Metadata name="HTTPService.uAPI.Module" id="fc04c515-ab95-4067-8f8b-9c4c63ca38c7.0" configVersion="822751c8d4f3c0c4afd6dd626ccdbd7d6f2addc0"/>
+		<Metadata name="Language.Русский" id="42cdff4e-df45-4e62-ab13-d7b247ebaca8" configVersion="640a7a6e5b461ad76aa48e1588afb789566df469"/>
+		<Metadata name="Role.uAPIОсновнаяРоль" id="d4282156-bf99-48a8-9bd0-298afb150a0c" configVersion="fa1b3e6b0882ddbb7f36dceb79a6be3acea87e77"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
