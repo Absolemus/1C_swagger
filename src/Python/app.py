@@ -1,14 +1,13 @@
 from flask import Flask, request
 from swagger_ui import api_doc
 import requests
-from yaml import load, Loader
+import os
+import json
 
 app = Flask(__name__)
-
-with open('config.yml', 'r') as file:
-    config = load(file, Loader=Loader)
-
-for base in config['bases']:
+env = os.environ['SW_BASES']
+config = json.loads(env)
+for base in config:
     headers = {'Authorization': f'Basic {base['token']}'}
     response = requests.request("GET", base['url'], headers=headers)
     for service in response.json():
@@ -17,7 +16,8 @@ for base in config['bases']:
             config_url=f'http://127.0.0.1:5000/swagger?prefix='
                        f'{service['url_prefix']}&name={base['name']}&token={base['token']}',
             url_prefix=service['url_prefix'],
-            title=service['title']
+            title=service['title'],
+            editor=True
         )
 
 

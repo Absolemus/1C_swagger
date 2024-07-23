@@ -1,4 +1,0 @@
-bases:
-  - url: http://localhost/baseName/hs/uAPI/swagger
-    token: token
-    name: baseName
