@@ -12,7 +12,7 @@
 			<Comment/>
 			<RootURL>uAPI</RootURL>
 			<ReuseSessions>AutoUse</ReuseSessions>
-			<SessionMaxAge>20</SessionMaxAge>
+			<SessionMaxAge>1</SessionMaxAge>
 		</Properties>
 		<ChildObjects>
 			<URLTemplate uuid="c5750180-0e30-4cf6-abf2-306e6f365dbe">
