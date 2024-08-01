@@ -1,28 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<ExternalDataProcessor uuid="f0555ea5-96e3-405a-8ae6-b186ff18b6b1">
+	<DataProcessor uuid="f437e742-ba2b-47c0-9b4b-f362d57d4069">
 		<InternalInfo>
-			<xr:ContainedObject>
-				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
-				<xr:ObjectId>6b867035-72d3-4ee1-ae95-b4e143719d8e</xr:ObjectId>
-			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.ТестuAPI" category="Object">
-				<xr:TypeId>2b93a164-18a7-4477-812f-4fe82e9fff54</xr:TypeId>
-				<xr:ValueId>42ff3009-5018-43d2-bdc7-0eb31923f8d1</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorObject.Схема" category="Object">
+				<xr:TypeId>bf6cabe8-5642-44eb-9115-b87c913296b4</xr:TypeId>
+				<xr:ValueId>a3a30fdd-6573-48e5-9c43-1b55a0ab9515</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.Схема" category="Manager">
+				<xr:TypeId>19e8598c-7b75-4e21-84da-35cd73c10776</xr:TypeId>
+				<xr:ValueId>ef1d2af1-4999-4934-99a2-31618178bb39</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТестuAPI</Name>
+			<Name>Схема</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Тест uAPI</v8:content>
+					<v8:content>Схема</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm/>
 			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
 		</Properties>
 		<ChildObjects/>
-	</ExternalDataProcessor>
+	</DataProcessor>
 </MetaDataObject>

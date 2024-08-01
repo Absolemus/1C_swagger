@@ -65,6 +65,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>uAPI</Subsystem>
 			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
 			<StyleItem>РезультатУспехЦвет</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
@@ -73,14 +74,19 @@
 			<CommonModule>ДополнительныеОтчетыИОбработкиКлиентСервер</CommonModule>
 			<CommonModule>ДополнительныеОтчетыИОбработки</CommonModule>
 			<CommonModule>ДанныеСервиса</CommonModule>
+			<CommonModule>ДанныеСервисаПереопределяемый</CommonModule>
 			<HTTPService>uAPI</HTTPService>
+			<Constant>СваггерВключен</Constant>
 			<Catalog>ДополнительныеОтчетыИОбработки</Catalog>
+			<Catalog>ДанныеСервера</Catalog>
 			<Enum>ВидыДополнительныхОтчетовИОбработок</Enum>
 			<Enum>СпособыВызоваДополнительныхОбработок</Enum>
 			<Enum>ВидыМетодовHTTPЗапроса</Enum>
 			<Enum>МестоЛокацииПараметра</Enum>
 			<Enum>ВариантыПубликацииДополнительныхОтчетовИОбработок</Enum>
 			<DataProcessor>ДанныеСервисов</DataProcessor>
+			<DataProcessor>Схема</DataProcessor>
+			<DataProcessor>ГенераторКодаСервиса</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
